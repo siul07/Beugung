@@ -42,7 +42,7 @@ Du kannst die Simulation direkt in Google Colab öffnen:
 Wir betrachten einen Spalt mit Breite $a$ in einem Abstand $L$ von einem Schirm.  
 Für kleine Winkel (Fraunhofer-Beugung) kann man die Intensitätsverteilung auf dem Schirm durch
 
-$ I(x) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2 $
+$I(x) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2$
 
 beschreiben, mit
 
