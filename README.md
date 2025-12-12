@@ -27,11 +27,7 @@ Sie läuft vollständig im Browser über Google Colab, sodass keine lokale Insta
 
 Du kannst die Simulation direkt in Google Colab öffnen:
 
-[➡ Simulation in Google Colab starten](HIER_COLAB_LINK_EINFÜGEN)
-
-> Hinweis: Der Link sollte auf dein Notebook zeigen, z.B.  
-> `https://colab.research.google.com/github/DEIN_NAME/DEIN_REPO/blob/main/beugung_interaktiv.ipynb`  
-> oder eine Drive-URL (`https://colab.research.google.com/drive/...`), falls du das Notebook in Google Drive gespeichert hast.
+[➡ Simulation in Google Colab starten](https://colab.research.google.com/drive/16wfxkAPTMqF0-s_rcjNquizmbn97KUZ8#scrollTo=6wdlRiDFydXV)
 
 ---
 
@@ -42,11 +38,11 @@ Du kannst die Simulation direkt in Google Colab öffnen:
 Wir betrachten einen Spalt mit Breite $a$ in einem Abstand $L$ von einem Schirm.  
 Für kleine Winkel (Fraunhofer-Beugung) kann man die Intensitätsverteilung auf dem Schirm durch
 
-$I(x) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2$
+$I(x)=I_0\left(\frac{\sin\beta}{\beta}\right)^2$
 
 beschreiben, mit
 
-$ \beta = \frac{\pi a x}{\lambda L} $.
+$\beta=\frac{\pi a x}{\lambda L}$.
 
 - $a$: Spaltbreite  
 - $λ$: Wellenlänge des Lichts  
@@ -70,12 +66,11 @@ Beim Doppelspalt mit Spaltbreite $a$ und Spaltabstand $d$ erhält man ein Muster
 
 Die Intensität kann näherungsweise beschrieben werden durch:
 
-$ I(x) = I_0 \cos^2\left(\frac{\pi d x}{\lambda L}\right)
-       \left( \frac{\sin \beta}{\beta} \right)^2, \quad \beta = \frac{\pi a x}{\lambda L} $.
+$I(x)=I_0\cos^2\left(\frac{\pi d x}{\lambda L}\right)\left(\frac{\sin\beta}{\beta}\right)^2,\quad\beta=\frac{\pi a x}{\lambda L}$.
 
 - $d$: Abstand der Spaltmitten  
 - der $\cos^2$-Term beschreibt die Interferenz der beiden Spalte  
-- der $\left(\frac{\sin \beta}{\beta}\right)^2$-Term die Beugung eines einzelnen Spalts
+- der $\left(\frac{\sin\beta}{\beta}\right)^2$-Term die Beugung eines einzelnen Spalts
 
 In der Simulation kann zwischen Einzelspalt und Doppelspalt umgeschaltet werden.
 
