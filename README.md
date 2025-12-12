@@ -10,13 +10,13 @@ Sie läuft vollständig im Browser über **Google Colab**, sodass keine lokale I
 - Simulation der **Beugung am Einzelspalt**
 - Simulation der **Beugung am Doppelspalt**
 - Einstellbare Parameter:
-  - Wellenlänge $\,\lambda\,$
-  - Spaltbreite $\,a\,$
-  - Spaltabstand $\,d$ (nur Doppelspalt)
-  - Schirmabstand $\,L$
+  - Wellenlänge $\lambda\,$
+  - Spaltbreite $\a\,$
+  - Spaltabstand $\d$ (nur Doppelspalt)
+  - Schirmabstand $\L$
   - beobachteter Bereich auf dem Schirm (x-Bereich)
 - Darstellung von:
-  - 1D-Intensitätsverlauf $\,I(x)\,$
+  - 1D-Intensitätsverlauf $\I(x)\$
   - 2D-Beugungsmuster (als „Bild“)
   - verwendeten **Formeln** direkt unter der Simulation
   - aktuell eingestellten **Parametern mit Einheiten**
@@ -39,9 +39,9 @@ Du kannst die Simulation direkt in Google Colab öffnen:
 Wir betrachten einen Spalt mit Breite $a$ in einem Abstand $L$ von einem Schirm.  
 Für kleine Winkel (Fraunhofer-Beugung) kann man die Intensitätsverteilung auf dem Schirm durch
 
-\[
-I(x) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2
-\]
+
+$I(x) = I_0 \left( \frac{\sin \beta}{\beta} \right)^2$
+
 
 beschreiben, mit
 
